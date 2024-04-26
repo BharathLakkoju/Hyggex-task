@@ -31,7 +31,7 @@ npm run dev
 - To build the application, use
 
 ```shell
-npm build
+npm run build
 ```
 
 This project is a replica of the task assigned in figma design - https://www.figma.com/file/Aj8hzPAAd25ViQ9GQGlZzI/Untitled-(Copy)?type=design&node-id=1-109&mode=design&t=HIAhV7FmbUk5f9H7-0
