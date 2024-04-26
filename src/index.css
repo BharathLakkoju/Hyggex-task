@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login {
+  background: linear-gradient(180deg, #06286e 0%, #164ec0 100%);
+  width: 100px;
+  padding: 7px 10px 10px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+}
+.head,
+.flashcard {
+  background: linear-gradient(180deg, #06286e 0%, #164ec0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.head {
+  margin-left: 310px;
+}
+.gradient-bg {
+  background: linear-gradient(
+    222.94deg,
+    #051a91 -4.31%,
+    #061c93 14.41%,
+    #2284f1 81.88%,
+    #1f80eb 103.81%
+  );
+}
+
+.card {
+  color: white;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.front {
+  border-radius: 42px;
+  backface-visibility: hidden;
+  background: linear-gradient(
+    222.94deg,
+    #051a91 -4.31%,
+    #061c93 14.41%,
+    #2284f1 81.88%,
+    #1f80eb 103.81%
+  );
+}
+
+.back {
+  border-radius: 42px;
+  backface-visibility: hidden;
+  background: linear-gradient(
+    222.94deg,
+    #071844 -4.31%,
+    #071844 -0.03%,
+    #2d87b6 84.9%,
+    #2d87b6 103.81%
+  );
+  transform: rotateY(180deg);
+}
+
+.cardFlip {
+  transform: rotateY(180deg);
+}
+
+.dropShadow {
+  box-shadow: 0px 0px 31px 0px #08389966;
+}
